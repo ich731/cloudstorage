@@ -21,6 +21,8 @@ public class ServerMain {
 		
 		Receiver receiver = new Receiver(port, 5,5);
 		receiver.start();
+		
+
 	}
 
 }

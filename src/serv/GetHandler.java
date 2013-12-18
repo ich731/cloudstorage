@@ -9,7 +9,6 @@ public class GetHandler implements IRequestHandler {
 	private Request req;
 	private Response resp;
 	
-
 	public GetHandler() {
 		// TODO Auto-generated constructor stub
 		req = this.req;
@@ -20,8 +19,13 @@ public class GetHandler implements IRequestHandler {
 	public Response handleRequest(Request req) {
 		// TODO Auto-generated method stub
 		
+		// 1.) Read Request and extract key
 		
-		resp.setResponseMessage(req.getItems().toString());
+		String data = Access.get(key);
+		
+		// 2.) Set up response and put data into that message
+		
+		// resp.setResponseMessage(req.getItems().toString());
 		
 		
 		
