@@ -11,7 +11,7 @@ import edu.kit.aifb.dbe.hermes.Response;
 public class GetHandler implements IRequestHandler {
 	
 	public GetHandler() {
-		// TODO Auto-generated constructor stub
+		// empty constructor
 	}
 
 	@Override
